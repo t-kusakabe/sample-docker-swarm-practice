@@ -14,7 +14,7 @@ services:
       WORKER_CONNECTIONS: 1024
       KEEPALIVE_TIMEOUT: 65
       GZIP: "on"
-      BACKEND_HOST: todofrontend_web:3000
+      BACKEND_HOST: todo_frontend_web:3000
       BACKEND_MAX_FAILS: 3
       BACKEND_FAIL_TIMEOUT: 10s
       SERVER_PORT: 80
