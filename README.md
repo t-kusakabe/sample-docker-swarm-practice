@@ -173,3 +173,9 @@ docker exec manager docker stack deploy -c /stack/todo-frontend.yml todo_fronten
 ```
 docker exec manager docker stack deploy -c /stack/todo-ingress.yml todo_ingress
 ```
+
+### visualizer
+
+```
+docker exec manager docker stack deploy -c /stack/visualizer.yml visualizer
+```
